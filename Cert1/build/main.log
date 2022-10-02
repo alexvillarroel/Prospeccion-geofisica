@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.9.30)  2 OCT 2022 05:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.9.30)  2 OCT 2022 06:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -654,15 +654,15 @@ LaTeX Font Info:    ... okay on input line 63.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* h-part:(L,W,R)=(36.135pt, 525.23788pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 772.77686pt, 36.135pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=591.5302pt
-* \oddsidemargin=17.3571pt
-* \evensidemargin=17.3571pt
-* \topmargin=-7.86334pt
+* \textwidth=525.23788pt
+* \textheight=772.77686pt
+* \oddsidemargin=-36.135pt
+* \evensidemargin=-36.135pt
+* \topmargin=-73.135pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -736,28 +736,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--83
 File: /home/alex/Desktop/Prospeccion-geofisica/Cert1/1PELEHUE.png Graphic file (type png)
 <use /home/alex/Desktop/Prospeccion-geofisica/Cert1/1PELEHUE.png>
 Package pdftex.def Info: /home/alex/Desktop/Prospeccion-geofisica/Cert1/1PELEHUE.png  used on input line 92.
-(pdftex.def)             Requested size: 418.25368pt x 285.87932pt.
+(pdftex.def)             Requested size: 525.23788pt x 359.00157pt.
+</home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png, id=7, 486.3771pt x 332.442pt>
+File: /home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png Graphic file (type png)
+<use /home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png>
+Package pdftex.def Info: /home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png  used on input line 96.
+(pdftex.def)             Requested size: 525.23788pt x 359.00157pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [1
 Non-PDF special ignored!
 <special> header=psfrag.pro
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./escudo.png> </home/alex/Desktop/Prospeccion-geofisica/Cert1/1PELEHUE.png>] (build/main.aux
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./escudo.png> </home/alex/Desktop/Prospeccion-geofisica/Cert1/1PELEHUE.png>] [2 </home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png>] (build/main.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 ) ) 
 Here is how much of TeX's memory you used:
- 30396 strings out of 478238
- 758084 string characters out of 5850456
- 1413425 words of memory out of 5000000
- 48132 multiletter control sequences out of 15000+600000
+ 30403 strings out of 478238
+ 758488 string characters out of 5850456
+ 1413658 words of memory out of 5000000
+ 48138 multiletter control sequences out of 15000+600000
  474627 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,7n,103p,762b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on build/main.pdf (1 page, 129468 bytes).
+Output written on build/main.pdf (2 pages, 210290 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 14 compressed objects within 1 object stream
+ 31 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
