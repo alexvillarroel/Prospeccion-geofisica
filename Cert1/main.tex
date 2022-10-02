@@ -18,13 +18,14 @@
 \usepackage{psfrag}
 \usepackage{pgfplots}
 \usepackage{bm}
+\usepackage[table,xcdraw]{xcolor}
 \usepackage[spanish]{babel}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Other Settings
 
 %%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\geometry{a4paper,margin=0.5in}
+\geometry{a4paper,margin=1.2in}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
 \definecolor{ocre}{RGB}{243,102,25}
@@ -86,7 +87,6 @@
 		hacerlo. Construir una tabla con tiempo vs d istancia. Recordar considerar la
 		distancia igual a cero (0) el punto del “shot point” respectivo.
 	\section*{Respuesta}
-	
 	A partir de los archivos entregados por el profesor, se realizó el manejo de datos mediante Obspy, para rehacer un plot de distancia vs tiempo.
 	\begin{figure*}[h]
 		\includegraphics[width=\textwidth]{/home/alex/Desktop/Prospeccion-geofisica/Cert1/1PELEHUE.png}
@@ -96,4 +96,68 @@
 		\includegraphics[width=\textwidth]{/home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png}
 		\caption{Section plot de 10 PELEHUE, shot point a un metro del geófono 24}
 	\end{figure*}
-\end{document}
+	\begin{figure*}[h]
+		\includegraphics[width=\textwidth]{/home/alex/Desktop/Prospeccion-geofisica/Cert1/ambos.png}
+		\caption{Section plot de 10 PELEHUE, shot point a un metro del geófono 24}
+	\end{figure*}
+	\newpage
+	A partir los gráficos, y con la ayuda de la herramienta \textbf{SeisGram2K}, se realizó el picado correspondiente a cada shot point
+	% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[h]
+	\begin{tabular}{|c|c|c|}
+	\hline
+	\rowcolor[HTML]{FF6B00} 
+	\textbf{Geófono} & \textbf{\begin{tabular}[c]{@{}c@{}}Tiempo de \\ llegada {[}min.s{]}\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Distancia \\ del shotpoint\\ {[}m{]}\end{tabular}} \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	1                & 35.350                                                                            & 93                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	2                & 35.329                                                                            & 89                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	4                & 35.322                                                                            & 85                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	3                & 35.320                                                                            & 81                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	6                & 35.286                                                                            & 77                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	5                & 35.281                                                                            & 73                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	7                & 35.275                                                                            & 69                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	8                & 35.260                                                                            & 65                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	9                & 35.232                                                                            & 61                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	10               & 35.219                                                                            & 57                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	11               & 35.196                                                                            & 53                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	12               & 35.188                                                                            & 49                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	13               & 35.179                                                                            & 45                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	14               & 35.169                                                                            & 41                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	15               & 35.148                                                                            & 37                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	16               & 35.142                                                                            & 33                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	17               & 35.122                                                                            & 29                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	18               & 35.084                                                                            & 25                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	19               & 35.084                                                                            & 21                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	21               & 35.033                                                                            & 17                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	20               & 35.030                                                                            & 13                                                                                    \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	22               & 35.026                                                                            & 9                                                                                     \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	23               & 35.024                                                                            & 5                                                                                     \\ \hline
+	\rowcolor[HTML]{F9CDAD} 
+	24               & 35.003                                                                            & 1                                                                                     \\ \hline
+	\end{tabular}
+	\end{table}
+	\end{document}

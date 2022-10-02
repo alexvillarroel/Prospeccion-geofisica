@@ -820,6 +820,7 @@ INPUT /usr/share/texmf-dist/tex/latex/tools/bm.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/bm.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/bm.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/bm.sty
+INPUT /usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/share/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/share/texmf-dist/tex/generic/babel/babel.sty
@@ -926,7 +927,13 @@ INPUT /home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png
 INPUT /home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png
 INPUT /home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png
 INPUT /home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png
+INPUT /home/alex/Desktop/Prospeccion-geofisica/Cert1/ambos.png
+INPUT /home/alex/Desktop/Prospeccion-geofisica/Cert1/ambos.png
+INPUT /home/alex/Desktop/Prospeccion-geofisica/Cert1/ambos.png
+INPUT /home/alex/Desktop/Prospeccion-geofisica/Cert1/ambos.png
+INPUT /home/alex/Desktop/Prospeccion-geofisica/Cert1/ambos.png
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT build/main.aux
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb

@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1664701764 "/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex" "build/main.pdf" "main" 1664701765
-  "/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex" 1664701764 4518 0cb131e1af52a8b7f89728c8314b4a43 ""
+["pdflatex"] 1664752454 "/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex" "build/main.pdf" "main" 1664752454
+  "/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex" 1664752452 10838 2549dbaab2ac1eafe6eb60d118a7264e ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1650183167 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1650183167 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -20,6 +20,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm" 1650183167 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm" 1650183167 1524 554068197b70979a55370e6c6495f441 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1650183167 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1650183167 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1650183167 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1650183167 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1650183167 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -196,9 +197,10 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1664545539 2927663 a567ee1ec1e69743ef35c87f1991ff07 ""
   "10Pelehue.png" 1664697671 132374 2a047d86da847124a487ebb998bbf8d6 ""
   "1PELEHUE.png" 1664697657 132374 2a047d86da847124a487ebb998bbf8d6 ""
-  "build/main.aux" 1664701765 563 04361d31bdc6fbabaadfa5d8a816c0fb "pdflatex"
+  "ambos.png" 1664702689 161447 2c2123f05b3f1ef30061f9f752084f6b ""
+  "build/main.aux" 1664752454 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "escudo.png" 1664551476 66182 753f8f2e4e0f693ebd483b6296712435 ""
-  "main.tex" 1664701764 4518 0cb131e1af52a8b7f89728c8314b4a43 ""
+  "main.tex" 1664752452 10838 2549dbaab2ac1eafe6eb60d118a7264e ""
   (generated)
   "build/main.aux"
   "build/main.log"
