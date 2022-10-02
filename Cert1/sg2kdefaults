@@ -1,0 +1,43 @@
+#
+# property defaults file for SeisGram2K Seismogram Viewer
+#
+
+seisgram2k.title          =  SeisGram2K Seismogram Viewer
+seisgram2k.mode           =  DEFAULT
+seisgram2k.locale         =  en_US
+seisgram2k.channel.format  =  AUTO
+#seisgram2k.channel.groupmode  =  AUTO,1,0,0
+seisgram2k.channel.response.file  =  default.pz
+seisgram2k.channel.response.ext   =  resp
+seisgram2k.commands.onread = rmean; 
+seisgram2k.commands.presets = this->WA, transfer from this to wa; this->WA, transfer from this to wa, markz, markp; -; 1Hz non-causal Highpass, hp amp n 2 co 1; 10Hz non-causal Lowpass, lp amp n 2 co 10; -; 1Hz Highpass, hp bu n 2 co 1; 10Hz Lowpass, lp bu n 2 co 10; -; 1-25Hz Bandpass, bp bu n 2 co 1 25; 0.1-5Hz Bandpass, bp bu n 2 co 0.1 5; 1-5Hz Bandpass, bp bu n 2 co 1 5; 0.1-25Hz Bandpass, bp bu n 2 co 0.1 25; -; 0.01-3Hz Bandpass, bp bu n 2 co 0.01 3; 0.001-3Hz Bandpass, bp bu n 2 co 0.001 3; 
+seisgram2k.binarytype     =  SUN_UNIX
+seisgram2k.pick.file       =  SeisGram2K.pick
+seisgram2k.ndecimal       =  3
+#seisgram2k.pickphases     =  i,P,c,0,(Set);i,P,d,0,(Set);e,P,c;e,P,d;e,S,,,(Set);,_CODA,,,(Set);
+seisgram2k.taupmodel      =  /MY_HOME/java/edu/sc/seis/TauP/iasp91.taup
+seisgram2k.taupphases     =  p,s,P,S,Pn,Sn,PcP,ScS,Pdiff,Sdiff,PKP,SKS,pP,sS,sP,PP,SS,PPP,SSS
+#seisgram2k.taupsource    =  1998,5,18,17,19,5.77,5.0,433,km
+
+seisgram2k.pick.p2pmax.windowlen = 0.8
+
+seisgram2k.display.beep.error        =  ON
+seisgram2k.display.beep.warning      =  OFF
+seisgram2k.display.lockallignment    =  YES
+seisgram2k.display.maxvisible        =  5
+seisgram2k.display.viewingtoolbar    =  YES
+seisgram2k.display.analysistoolbar   =  YES
+seisgram2k.display.messagewindow     =  YES
+
+seisgram2k.pick.format     =  NON_LIN_LOC
+seisgram2k.event.id	  = 12345
+seisgram2k.event.info     = 35 km north of The Big City \\nOT 1999 01 01  00 50 0.127026 \\nLat 43.433994 Long 5.523233 Depth 8.4226 \\nRMS 0.097211 Nphs 15 Gap 310 Dist 21.673412 \\nMamp 3.90 5 Mdur 3.90 6
+seisgram2k.event.url      = http://host/directory/cgi-bin/retrieve_pick
+seisgram2k.event.protocol = CGI_BIN_EARTHWORM
+seisgram2k.event.sendall = YES
+
+#seisgram2k.messages.pull = messages.txt,3000,-1
+
+#seisgram2k.predictedphases.file = predicted_phases.pick
+#seisgram2k.predictedphases.format = NON_LIN_LOC_PRED
+

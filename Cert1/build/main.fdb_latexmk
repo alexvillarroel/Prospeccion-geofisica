@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1664551657 "/home/alex/Desktop/Prospeccion-geofisica/main.tex" "build/main.pdf" "main" 1664551657
-  "/home/alex/Desktop/Prospeccion-geofisica/main.tex" 1664551657 3656 b7dcb8294bc98a30e39a33a2a138a8ca ""
+["pdflatex"] 1664701167 "/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex" "build/main.pdf" "main" 1664701168
+  "/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex" 1664701167 4217 56757261157a744a0719effa45eccfb4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1650183167 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1650183167 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -194,9 +194,10 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1664545544 4278762 af3ac1370db81a450c1118eabf1fe718 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1664545539 2927663 a567ee1ec1e69743ef35c87f1991ff07 ""
-  "build/main.aux" 1664551657 229 1d900a20e8c9583bc3553770162a6c5a "pdflatex"
+  "1PELEHUE.png" 1664697657 132374 2a047d86da847124a487ebb998bbf8d6 ""
+  "build/main.aux" 1664701168 229 1d900a20e8c9583bc3553770162a6c5a "pdflatex"
   "escudo.png" 1664551476 66182 753f8f2e4e0f693ebd483b6296712435 ""
-  "main.tex" 1664551657 3656 b7dcb8294bc98a30e39a33a2a138a8ca ""
+  "main.tex" 1664701167 4217 56757261157a744a0719effa45eccfb4 ""
   (generated)
   "build/main.aux"
   "build/main.log"
