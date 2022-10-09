@@ -1,0 +1,109 @@
+\documentclass{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{empheq}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{lipsum}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{psfrag}
+\usepackage{pgfplots}
+\usepackage{bm}
+\usepackage[spanish]{babel}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Other Settings
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\geometry{a4paper,margin=1.2in}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{ocre}{RGB}{243,102,25}
+\definecolor{mygray}{RGB}{243,243,244}
+\definecolor{deepGreen}{RGB}{26,111,0}
+\definecolor{shallowGreen}{RGB}{235,255,255}
+\definecolor{deepBlue}{RGB}{61,124,222}
+\definecolor{shallowBlue}{RGB}{235,249,255}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% English Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
+\theoremstyle{myproblemstyle}
+\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepgfplotslibrary{colorbrewer}
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Certamen 1 Introducción a la prospección remota}
+\author{Alex Villarroel Carrasco}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\usetikzlibrary{positioning}
+	\tikzset{every picture/.style={line width=0.75pt}}    
+	\pagestyle{plain}
+	\begin{flushleft}
+		Departamento de Geofísica \hfill Introducción a prospección geofísica\\
+		Facultad de Cs. Físicas y Matemáticas\\
+		\underline{Universidad de Concepción}
+	\end{flushleft}
+	
+	\begin{flushright}\vspace{-5mm}
+		\includegraphics[height=1.5cm]{escudo.png}
+	\end{flushright}
+	
+	\begin{center}\vspace{-1cm}
+		\textbf{\large Terreno de introducción a prospección geofísica\\2022-10-03}\\
+		{\textcolor{blue}{Alex Villarroel Carrasco}}\\
+	\end{center}
+	\rule{\linewidth}{0.1mm}
+	\\
+    \section*{Desembocadura Rio Bio Bio}
+    \textbf{Conceptos}:
+    \begin{itemize}
+        \item Antearco: Zona entre la zona de subducción y el arco de la cordillera de los Andes
+        \item Igneas: Se forman por la solidificacion de un magma
+        \item Sedimentarias: A partir de sedimentos
+        \item Metamorficas: A partir de otras rocas sometidas a altas temperaturas y presiones
+        \item Prisma de acreción: Cinturón metamórfico pareado.
+        \begin{itemize}
+            \item Basamento metamorfico
+            \item Paleozoico
+            \item Serie Oriental( bajo p/t) y Occidental (alto p/t)
+        \end{itemize}
+    \end{itemize}
+    Fueron deformadas bajo diferentes condiciones metamórficas durante la Orogenia Gondwánica o San Rafael(Carbonífero Superior- Pérmico Inferior)
+    Compuesta por secuencia metapelitas(pizarras y filitas), metasamitas y esquistos
+    \subsection*{Intrusivos Trásicos\\Plutón Hualpén(Triásico Superior)}
+    Batolito costero: Es un grupo de plutones en la cordillera de la Costa de Chile Central, que aparece contiguamente desde los 33 S hasta los 38 S
+    \par Es un remanente de los arcos volcanicos. Intruye al basamento metamorfico
+    \subsection*{Depósitos Cuaternarios}
+    \textbf{Depósitos no consolidados}
+    Asociados al sistema sedimentario de la costa actual.
+    \begin{itemize}
+        \item Depósitos fluviales
+        \item Depósitos litorales
+        \item Terrazas marinas
+    \end{itemize}
+\end{document}

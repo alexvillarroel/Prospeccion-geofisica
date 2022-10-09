@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1664752454 "/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex" "build/main.pdf" "main" 1664752454
-  "/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex" 1664752452 10838 2549dbaab2ac1eafe6eb60d118a7264e ""
+["pdflatex"] 1664921598 "/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex" "build/main.pdf" "main" 1664921599
+  "/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex" 1664921597 11088 c066d2d048220a1f4e5d0b0b072f5c74 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1650183167 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1650183167 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -193,14 +193,14 @@
   "/usr/share/texmf-dist/tex/latex/zref/zref-abspage.sty" 1650181202 2245 c8a4088d07cffc2e5207730c738edd76 ""
   "/usr/share/texmf-dist/tex/latex/zref/zref-base.sty" 1650181202 20785 71a3d72ab517959a6979c27e6176bec1 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1664545544 4278762 af3ac1370db81a450c1118eabf1fe718 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1664545539 2927663 a567ee1ec1e69743ef35c87f1991ff07 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1664921104 4278762 af3ac1370db81a450c1118eabf1fe718 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1664921080 2927661 8a089577989fb076f741abb00471ce63 ""
   "10Pelehue.png" 1664697671 132374 2a047d86da847124a487ebb998bbf8d6 ""
   "1PELEHUE.png" 1664697657 132374 2a047d86da847124a487ebb998bbf8d6 ""
   "ambos.png" 1664702689 161447 2c2123f05b3f1ef30061f9f752084f6b ""
-  "build/main.aux" 1664752454 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "build/main.aux" 1664921599 731 1c981900efc1745f3a79bbb4a5ebf05f "pdflatex"
   "escudo.png" 1664551476 66182 753f8f2e4e0f693ebd483b6296712435 ""
-  "main.tex" 1664752452 10838 2549dbaab2ac1eafe6eb60d118a7264e ""
+  "main.tex" 1664921597 11088 c066d2d048220a1f4e5d0b0b072f5c74 ""
   (generated)
   "build/main.aux"
   "build/main.log"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.9.30)  2 OCT 2022 20:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.10.4)  4 OCT 2022 19:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -605,26 +605,7 @@ Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
 Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
-)
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:22: LaTeX Error: Option clash for package xcolor.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 \usepackage
-                [spanish]{babel}
-The package xcolor has already been loaded with options:
-  []
-There has now been an attempt to load it with options
-  [table,xcdraw]
-Adding the global options:
-  ,table,xcdraw
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
-(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2022/02/26 3.73 The Babel package
 \babel@savecnt=\count330
 \U@D=\dimen312
@@ -644,23 +625,26 @@ Package babel Info: Making > an active character on input line 722.
 \c@theorem=\count333
 \c@definition=\count334
 \c@problem=\count335
- (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.colorbrewer.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarycolorbrewer.code.tex)) (build/main.aux)
+ (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.colorbrewer.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarycolorbrewer.code.tex)) (build/main.aux
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -725,43 +709,43 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <escudo.png, id=4, 367.3725pt x 451.6875pt>
 File: escudo.png Graphic file (type png)
 <use escudo.png>
-Package pdftex.def Info: escudo.png  used on input line 75.
+Package pdftex.def Info: escudo.png  used on input line 74.
 (pdftex.def)             Requested size: 34.71014pt x 42.67912pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--84
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
 
  []
 
 </home/alex/Desktop/Prospeccion-geofisica/Cert1/1PELEHUE.png, id=6, 486.3771pt x 332.442pt>
 File: /home/alex/Desktop/Prospeccion-geofisica/Cert1/1PELEHUE.png Graphic file (type png)
 <use /home/alex/Desktop/Prospeccion-geofisica/Cert1/1PELEHUE.png>
-Package pdftex.def Info: /home/alex/Desktop/Prospeccion-geofisica/Cert1/1PELEHUE.png  used on input line 92.
+Package pdftex.def Info: /home/alex/Desktop/Prospeccion-geofisica/Cert1/1PELEHUE.png  used on input line 91.
 (pdftex.def)             Requested size: 424.06033pt x 289.84613pt.
 </home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png, id=7, 486.3771pt x 332.442pt>
 File: /home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png Graphic file (type png)
 <use /home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png>
-Package pdftex.def Info: /home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png  used on input line 96.
+Package pdftex.def Info: /home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png  used on input line 95.
 (pdftex.def)             Requested size: 424.06033pt x 289.84613pt.
 </home/alex/Desktop/Prospeccion-geofisica/Cert1/ambos.png, id=8, 455.301pt x 332.442pt>
 File: /home/alex/Desktop/Prospeccion-geofisica/Cert1/ambos.png Graphic file (type png)
 <use /home/alex/Desktop/Prospeccion-geofisica/Cert1/ambos.png>
-Package pdftex.def Info: /home/alex/Desktop/Prospeccion-geofisica/Cert1/ambos.png  used on input line 100.
+Package pdftex.def Info: /home/alex/Desktop/Prospeccion-geofisica/Cert1/ambos.png  used on input line 99.
 (pdftex.def)             Requested size: 424.06033pt x 309.6396pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -774,298 +758,27 @@ Non-PDF special ignored!
 <special> header=psfrag.pro
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./escudo.png> </home/alex/Desktop/Prospeccion-geofisica/Cert1/1PELEHUE.png>]
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:111: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.111 	\rowcolor
-                [HTML]{FF6B00}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:113: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.113 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+ []
 
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:115: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.115 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[2 </home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png>]
+Overfull \vbox (7.38458pt too high) has occurred while \output is active []
 
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:117: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.117 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:119: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.119 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:121: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.121 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:123: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.123 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:125: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.125 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:127: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.127 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:129: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.129 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:131: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.131 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:133: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.133 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:135: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.135 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:137: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.137 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:139: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.139 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:141: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.141 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:143: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.143 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:145: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.145 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:147: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.147 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:149: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.149 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:151: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.151 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:153: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.153 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:155: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.155 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:157: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.157 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/alex/Desktop/Prospeccion-geofisica/Cert1/main.tex:159: Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.159 	\rowcolor
-                [HTML]{F9CDAD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2 </home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png>] [3 </home/alex/Desktop/Prospeccion-geofisica/Cert1/ambos.png>] [4] (build/main.aux
+ [3 </home/alex/Desktop/Prospeccion-geofisica/Cert1/ambos.png>] [4] (build/main.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 ) ) 
 Here is how much of TeX's memory you used:
- 30411 strings out of 478238
- 758872 string characters out of 5850456
+ 30410 strings out of 478238
+ 758864 string characters out of 5850456
  1419666 words of memory out of 5000000
- 48145 multiletter control sequences out of 15000+600000
+ 48144 multiletter control sequences out of 15000+600000
  474627 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,15n,103p,762b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,12n,103p,762b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on build/main.pdf (4 pages, 357318 bytes).
+Output written on build/main.pdf (4 pages, 358021 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
