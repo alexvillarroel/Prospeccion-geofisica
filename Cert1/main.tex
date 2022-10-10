@@ -12,6 +12,7 @@
 \usepackage{mdframed}
 \usepackage{booktabs}
 \usepackage{lipsum}
+\usepackage[export]{adjustbox}
 \usepackage{enumitem}
 \usepackage{graphicx}
 \usepackage{color}
@@ -86,83 +87,266 @@
 		hacerlo. Construir una tabla con tiempo vs d istancia. Recordar considerar la
 		distancia igual a cero (0) el punto del “shot point” respectivo.
 	\section*{Respuesta}
-	A partir de los archivos entregados por el profesor, se realizó el manejo de datos mediante Obspy, para rehacer un plot de distancia vs tiempo.
+	A partir de los archivos entregados por el profesor, se realizó el manejo de datos mediante Obspy, para rehacer un plot de distancia vs tiempo(script adjuntado en Anexos).
+	.\par
+	\begin{figure}[h]
+		\includegraphics[width=\textwidth]{ambos.png}
+		\caption[]{Figura Tiempo-Distancia de cada sismograma para ambos eventos(1 PELEHUE Y 10 PELEHUE)}
+	\end{figure}
+	Luego de aquello, el picado de la primera llegada se logró mediante la utilización de \textbf{SeisGram2K}, obteniendo las siguientes figuras.
 	\begin{figure*}[h]
-		\includegraphics[width=\textwidth]{/home/alex/Desktop/Prospeccion-geofisica/Cert1/1PELEHUE.png}
-		\caption{Section plot de 1 PELEHUE, shot point a un metro del geófono 1}
+		\includegraphics[width=1.3\textwidth,center]{/home/alex/Prospeccion-geofisica/Cert1/fig1.png}
+		\caption{Tiempos de primera llegada para cada sismograma. $a)$ correspondiente al evento 1PELEHUE, $b)$ correspondiente al evento 10 PELEHUE}
 	\end{figure*}
-	\begin{figure*}[h]
-		\includegraphics[width=\textwidth]{/home/alex/Desktop/Prospeccion-geofisica/Cert1/10Pelehue.png}
-		\caption{Section plot de 10 PELEHUE, shot point a un metro del geófono 24}
-	\end{figure*}
-	\begin{figure*}[h]
-		\includegraphics[width=\textwidth]{/home/alex/Desktop/Prospeccion-geofisica/Cert1/ambos.png}
-		\caption{Section plot de 10 PELEHUE, shot point a un metro del geófono 24}
-	\end{figure*}
+
+
 	\newpage
-	A partir los gráficos, y con la ayuda de la herramienta \textbf{SeisGram2K}, se realizó el picado correspondiente a cada shot point
+	Visualmente no se logra apreciar con exactitud los tiempos de llegada en cada geófono, por lo que se presenta una tabla con aquellos datos.
 	\\% Please add the following required packages to your document preamble:
-	
-% \usepackage[table,xcdraw]{xcolor}
-% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
-	\begin{tabular}{|c|c|c|}
-	\hline
-	\textbf{Geófono} & \textbf{\begin{tabular}[c]{@{}c@{}}Tiempo de \\ llegada {[}min.s{]}\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Distancia \\ del shotpoint\\ {[}m{]}\end{tabular}} \\ \hline
-	1                & 35.350                                                                            & 93                                                                                    \\ \hline
-	2                & 35.329                                                                            & 89                                                                                    \\ \hline
-	3                & 35.322                                                                            & 85                                                                                    \\ \hline
-	4                & 35.320                                                                            & 81                                                                                    \\ \hline
-	6                & 35.286                                                                            & 77                                                                                    \\ \hline
-	5                & 35.281                                                                            & 73                                                                                    \\ \hline
-	7                & 35.275                                                                            & 69                                                                                    \\ \hline
-	8                & 35.260                                                                            & 65                                                                                    \\ \hline
-	9                & 35.232                                                                            & 61                                                                                    \\ \hline
-	10               & 35.219                                                                            & 57                                                                                    \\ \hline
-	11               & 35.196                                                                            & 53                                                                                    \\ \hline
-	12               & 35.188                                                                            & 49                                                                                    \\ \hline
-	13               & 35.179                                                                            & 45                                                                                    \\ \hline
-	14               & 35.169                                                                            & 41                                                                                    \\ \hline
-	15               & 35.148                                                                            & 37                                                                                    \\ \hline
-	16               & 35.142                                                                            & 33                                                                                    \\ \hline
-	17               & 35.122                                                                            & 29                                                                                    \\ \hline
-	18               & 35.084                                                                            & 25                                                                                    \\ \hline
-	19               & 35.084                                                                            & 21                                                                                    \\ \hline
-	21               & 35.033                                                                            & 17                                                                                    \\ \hline
-	20               & 35.030                                                                            & 13                                                                                    \\ \hline
-	22               & 35.026                                                                            & 9                                                                                     \\ \hline
-	23               & 35.024                                                                            & 5                                                                                     \\ \hline
-	24               & 35.003                                                                            & 1                                                                                     \\ \hline
-	\end{tabular}
-
-
+	\begin{table}[h!]
+		\centering
 		\begin{tabular}{|c|c|c|}
 		\hline
-		\textbf{Geófono} &
-		  \textbf{\begin{tabular}[c]{@{}c@{}}Tiempo de \\ llegada {[}min.s{]}\end{tabular}} &
-		  \textbf{\begin{tabular}[c]{@{}c@{}}Distancia \\ del shotpoint\\ {[}m{]}\end{tabular}} \\ \hline
-		1  & 12.003 & 1  \\ \hline
-		2  & 12.015 & 5  \\ \hline
-		3  & 12.022 & 9  \\ \hline
-		4  & 12.026 & 13 \\ \hline
-		5  & 12.033 & 17 \\ \hline
-		6  & 12.060 & 21 \\ \hline
-		7  & 12.117 & 25 \\ \hline
-		8  & 12.127 & 29 \\ \hline
-		9  & 12.149 & 33 \\ \hline
-		10 & 12.160 & 37 \\ \hline
-		11 & 12.169 & 41 \\ \hline
-		13 & 12.181 & 45 \\ \hline
-		12 & 12.194 & 49 \\ \hline
-		14 & 12.227 & 53 \\ \hline
-		15 & 12.235 & 57 \\ \hline
-		16 & 12.256 & 61 \\ \hline
-		17 & 12.266 & 65 \\ \hline
-		18 & 12.269 & 69 \\ \hline
-		19 & 12.294 & 73 \\ \hline
-		20 & 12.312 & 77 \\ \hline
-		21 & 12.319 & 81 \\ \hline
-		22 & 12.325 & 85 \\ \hline
-		23 & 12.347 & 89 \\ \hline
-		24 & 12.357 & 93 \\ \hline
+		\textbf{Geofono} & \textbf{Distancia {[}m{]}} & \textbf{Tiempo {[}s{]}} \\ \hline
+		1                & 1                          & 0.002                   \\ \hline
+		2                & 5                          & 0.012                   \\ \hline
+		3                & 9                          & 0.024                   \\ \hline
+		4                & 13                         & 0.024                   \\ \hline
+		5                & 17                         & 0.03                    \\ \hline
+		6                & 21                         & 0.032                   \\ \hline
+		7                & 25                         & 0.037                   \\ \hline
+		8                & 29                         & 0.04                    \\ \hline
+		9                & 33                         & 0.042                   \\ \hline
+		10               & 37                         & 0.043                   \\ \hline
+		11               & 41                         & 0.045                   \\ \hline
+		12               & 45                         & 0.048                   \\ \hline
+		13               & 49                         & 0.051                   \\ \hline
+		14               & 53                         & 0.052                   \\ \hline
+		15               & 57                         & 0.056                   \\ \hline
+		16               & 61                         & 0.058                   \\ \hline
+		17               & 65                         & 0.058                   \\ \hline
+		18               & 69                         & 0.063                   \\ \hline
+		19               & 73                         & 0.064                   \\ \hline
+		20               & 77                         & 0.066                   \\ \hline
+		21               & 81                         & 0.068                   \\ \hline
+		22               & 85                         & 0.07                    \\ \hline
+		23               & 89                         & 0.072                   \\ \hline
+		24               & 93                         & 0.073                   \\ \hline
 		\end{tabular}
-	\end{document}
+		\caption{Tabla de tiempo de llegada para cada geófono en el evento 1PELEHUE}
+		\end{table}
+		\begin{table}[h!]
+			\centering
+			\begin{tabular}{|c|c|c|}
+			\hline
+			\textbf{Geofono} & \textbf{Distancia {[}m{]}} & \textbf{Tiempo {[}s{]}} \\ \hline
+			24               & 1                          & 0.004                   \\ \hline
+			23               & 5                          & 0.012                   \\ \hline
+			22               & 9                          & 0.021                   \\ \hline
+			21               & 13                         & 0.022                   \\ \hline
+			20               & 17                         & 0.025                   \\ \hline
+			19               & 21                         & 0.025                   \\ \hline
+			18               & 25                         & 0.027                   \\ \hline
+			17               & 29                         & 0.031                   \\ \hline
+			16               & 33                         & 0.035                   \\ \hline
+			15               & 37                         & 0.036                   \\ \hline
+			14               & 41                         & 0.039                   \\ \hline
+			13               & 45                         & 0.04                    \\ \hline
+			12               & 49                         & 0.043                   \\ \hline
+			11               & 53                         & 0.044                   \\ \hline
+			10               & 57                         & 0.044                   \\ \hline
+			9                & 61                         & 0.046                   \\ \hline
+			8                & 65                         & 0.05                    \\ \hline
+			7                & 69                         & 0.053                   \\ \hline
+			6                & 73                         & 0.055                   \\ \hline
+			5                & 77                         & 0.058                   \\ \hline
+			4                & 81                         & 0.063                   \\ \hline
+			3                & 85                         & 0.066                   \\ \hline
+			2                & 89                         & 0.069                   \\ \hline
+			1                & 93                         & 0.072                   \\ \hline
+			\end{tabular}
+			\caption{Tabla de tiempo de llegada para cada geógono en el evento 10PELEHUE}
+
+		\end{table}
+	\newpage
+	\section*{Curvas camino-tiempo}
+	\newpage
+	Al extraer los datos y realizar un gráfico de curvas camino-tiempo, se obtuvo lo siguiente:\par
+	\begin{figure*}[h!]
+		\centering
+		\includegraphics[width=\textwidth,center]{CurvaDist-tiempo.png}
+		\caption[]{Curvas camino-tiempo de ambos eventos, con sus respectivas rectas }
+	\end{figure*}
+	En la figura se aprecia que en ambos eventos existen 2 rectas, la primera correspondiendo a la primera llegada de una onda directa, mientras que la otra recta corresponde a la onda refractada
+	.\par La obtención de estas rectas están representadas por las siguientes ecuaciones:
+	\subsection*{Evento 1 PELEHUE}
+	\begin{enumerate}
+		\item Onda directa: \begin{equation*}
+			T=0 + 0.023D
+			\end{equation*}
+			Correspondiendo 0 al intercepto y 0.023 la pendiente de la recta. Es interesante notar que el intercepto debe ser 0 debido a que 
+			cuando en un principio si se tuviera a un geofono a 0 metros del shotpoint, demoraría 0 segundos en registrar la llegada(lo cual me parece improbable debido a la precisión y delay que presenta el instrumento)
+		\item Onda refractada:\begin{equation*}
+			T=\tau+m\cdot D
+		\end{equation*}
+		Si bien estas rectas pueden ser descritas mediante software, una forma sencilla es tomar dos puntos
+		y calcular la pendiente m como $\frac{y_2-y_1}{x_2-y_1}$ y el intercepto despejandolo con los valores conocidos.
+		.\par Sea $x_1=9,y_1=0.24$ y $x_2=89,y_2=0.72$  
+		\begin{align*}
+			m&=\frac{y_2-y_1}{x_2-x_1} \\
+			m&=\frac{0.072-0.024}{89-9}\\ 
+			m&=0.0006
+		\end{align*}
+		El intercepto $\tau:$ puede ser obtenido con el punto $(x_1,y_1)$
+		\begin{align*}
+			y_1&=\tau+0.0006x_1 \\
+			\tau&=y_1-0.0006x_1 \\
+			\tau&=0.024-0.0006\cdot 9 \\
+			\tau&=0.018
+		\end{align*}
+		por lo que la ecuación de la recta para la onda refractada queda:
+		\begin{equation*}
+			T=\tau+0.0006D
+		\end{equation*}
+		con $\tau=0.018$
+	\end{enumerate}
+	\subsection*{Evento 10 PELEHUE}
+	Realizando el mismo procedimiento que antes:
+	\begin{enumerate}
+		\item Onda directa: \par 
+		Teniendo $(x_1,y_1)=(1,0.004)$ y $(x_2,y_2)=(9,0.021)$, y m como $\frac{y_2-y_1}{x_2-y_1}$
+		, se tiene la siguiente ecuación de la recta:
+		\begin{equation*}
+			T=0 + 0.0022D
+			\end{equation*}
+			Correspondiendo 0 al intercepto y 0.023 la pendiente de la recta. Es interesante notar que el intercepto debe ser 0 debido a que 
+			cuando en un principio si se tuviera a un geofono a 0 metros del shotpoint, demoraría 0 segundos en registrar la llegada(lo cual me parece improbable debido a la precisión y delay que presenta el instrumento)
+		\item Onda refractada:\begin{equation*}
+			T=\tau+m\cdot D
+		\end{equation*}
+		Se puede calcular la pendiente m como $\frac{y_2-y_1}{x_2-y_1}$ y el intercepto despejandolo con los valores conocidos.
+		.\par Sea $x_1=9,y_1=0.021$ y $x_2=89,y_2=0.069$  
+		\begin{align*}
+			m&=\frac{y_2-y_1}{x_2-x_1} \\
+			m&=\frac{0.069-0.021}{89-9}\\ 
+			m&=0.0006
+		\end{align*}
+		El intercepto $\tau:$ puede ser obtenido con el punto $(x_1,y_1)$
+		\begin{align*}
+			y_1&=\tau+0.0006x_1 \\
+			\tau&=y_1-0.0006x_1 \\
+			\tau&=0.021-0.0006\cdot 9 \\
+			\tau&=0.016
+		\end{align*}
+		por lo que la ecuación de la recta para la onda refractada queda:
+		\begin{equation*}
+			T=\tau+0.0006D
+		\end{equation*}
+		con $\tau=0.016$
+	\end{enumerate}
+\subsection*{Modelo de estructura-velocidad 1-D (para cada caso)}
+Se sabe que la pendiente m calculada anteriormente es el inverso de la velocidad, por lo que se puede extraer la velocidad de la onda directa y reflectada para cada caso.
+\begin{itemize}
+	\item 1 PELEHUE:\begin{itemize}
+		\item Onda directa:\begin{align*}
+			V_0&=\frac{1}{m}=\frac{1}{0.0023}\\
+			V_0&=435\left[\frac{m}{s}\right]
+		\end{align*}
+		\item Onda refractada\begin{align*}
+			V_1&=\frac{1}{m}=\frac{1}{0.0006}\\
+			V_1&=1667\left[\frac{m}{s}\right]
+		\end{align*}
+	\end{itemize}
+	%
+	%
+	\item 10 PELEHUE:\begin{itemize}
+		\item Onda directa:\begin{align*}
+			V_0&=\frac{1}{m}=\frac{1}{0.0022}\\
+			V_0&=454\left[\frac{m}{s}\right]
+		\end{align*}
+		\item Onda refractada\begin{align*}
+			V_1&=\frac{1}{m}=\frac{1}{0.0006}\\
+			V_1&=1667\left[\frac{m}{s}\right]
+		\end{align*}
+	\end{itemize}
+\end{itemize}
+\subsection*{Modelo estructura-velocidad}
+Para un modelo de una capa no inclinada, el tiempo se puede expresar como función del ángulo crítico, la distancia vertical y horizontal, y de la velocidad, de la siguiente forma:
+\begin{equation*}
+	T=2z\frac{cos(i_c)}{V}+\frac{x}{V}
+\end{equation*}
+lo cual se puede extender a:\begin{equation*}
+	T_r=\frac{x}{V_2}+2z_1\left(\frac{1}{V_1^2}-\frac{1}{V_2^2}\right)^\frac{1}{2}
+\end{equation*}
+es fundamental entender que ya se conoce la ecuación de la recta,
+y por consiguiente $\tau$, que corresponde al término $2z_1{\left(\frac{1}{V_1^2}-\frac{1}{V_2^2}\right)}^{\frac{1}{2}}$
+, pudiendo así extraer $z_1$.
+\subsubsection*{1-Pelehue}
+\begin{align*}
+	\tau&=2z_1\left(\frac{1}{V_1^2}-\frac{1}{V_2^2}\right)^\frac{1}{2}\\ 
+	0.018&=2z_1\left(\frac{1}{435^2}-\frac{1}{1667^2}\right)^\frac{1}{2} \\ 
+	0.018&=2z_1\cdot 0.0023\\
+	z_1&=\frac{0.018}{2\cdot 0.0024}=3.7 [m]
+\end{align*}
+Para el shotpoint realizado a un metro del geófono 1, el perfil sería el siguiente:
+\begin{figure*}
+	\includegraphics[width=0.8\textwidth,center]{vel-depth.png}
+	\caption{Modelo 1-D estructura-velocidad para el evento 1 PELEHUE}
+\end{figure*}
+\subsubsection*{10-Pelehue}
+\begin{align*}
+	\tau&=2z_1\left(\frac{1}{V_1^2}-\frac{1}{V_2^2}\right)^\frac{1}{2}\\ 
+	0.016&=2z_1\left(\frac{1}{454^2}-\frac{1}{1667^2}\right)^\frac{1}{2} \\ 
+	0.016&=2z_1\cdot 0.0022\\
+	z_1&=\frac{0.016}{2\cdot 0.0022}=3.5 [m]
+\end{align*}
+Para el shotpoint realizado a un metro del geófono 24, el perfil sería el siguiente:
+\par \begin{figure*}[h!]
+	\includegraphics[width=1\textwidth,center]{vel-depth2.png}
+	\caption{Modelo 1-D estructura-velocidad para el evento 10 PELEHUE}
+\end{figure*}\newpage
+\subsection*{¿Capa inclinada o no?}
+A partir de los tiempos de las primeras llegadas, de las ecuaciones de recta 
+para cada caso, y del modelo 1-D de estructura-velocidad, se puede concluir que no se trata 
+de una capa inclinada, ya que las diferencias entre cada evento son ínfimas, 
+y pueden estar asociadas netamente a errores humanos de pickeo,
+ de asignación de la pendiente de lentitud, del instrumento,etc.
+ \newpage
+\section*{Pregunta 2}
+\textbf{Encontrar una relación para el tiempo de viaje de una onda refractada en un medio de 1 capa
+de espesor “h” cuyo shot point ocurre en Z.$(Z<h)$}\\ \\
+Sease un perfil como el de la figura.\par 
+\begin{figure*}[h]
+	\centering
+	\includegraphics[width=\textwidth]{h.png}
+	\caption{Representación gráfica del problema.}
+\end{figure*}
+se tienen las siguientes relaciones a partir de la ley de Snell:
+\begin{align*}
+	\frac{sin(\theta)}{v_0}&=\frac{1}{v_1} \implies sin(\theta)=\frac{v_0}{v_1}
+	\\ v_1&=\frac{v_0}{sen(\theta )}
+\end{align*}
+y se sabe además, por trigonometría:
+\begin{align*}
+	a&=\frac{h-z}{cos(\theta )} \\
+	b&= x-tan(\theta )(h-z)-tan(\theta)h=x-tan(\theta )(2h -z) \\
+	c&=\frac{h}{cos(\theta )}
+\end{align*}
+y bien, el tiempo de llegada puede ser expresado por la suma que demora cada tramo, es decir:
+\begin{equation*}
+	T=\frac{a}{v_0}+\frac{b}{v_1}+\frac{c}{v_0}
+\end{equation*}
+Reemplazando:
+\begin{align*}
+	T&=\frac{\frac{h-z}{cos(\theta )}}{v_0}+\frac{x-tan(\theta )(2h -z)}{v_1}+\frac{\frac{h}{cos(\theta )}}{v_0} \\
+	T&=\frac{x}{v_1}+ \frac{(2h-z)}{cos(\theta)v_0}-\frac{(2h-z)tan(\theta)}{v_1} \\ 
+	T&=\frac{x}{v_1}+(2h-z)\left(\frac{1}{cos(\theta )v_0}-\frac{tan(\theta )}{v_1}\right) \\ 
+	T&=\frac{x}{v_1}+(2h-z)\left(\frac{1}{cos(\theta )v_0}-\frac{\tan(\theta)\sen(\theta)}{v_0}\right) \\ 
+	T&=\frac{x}{v_1}+(2h-z)\left(\frac{1}{cos(\theta )v_0}-\frac{sen^2(\theta )}{cos(\theta )v_0}\right) \\ 
+	T&=\frac{x}{v_1}+(2h-z)\left(\frac{cos(\theta )}{v_0}\right) \\ 
+	T&=\frac{x}{v_1}+(2h-z)\left(\sqrt{\frac{cos^2(\theta )}{v_0^2}}\right) \\
+	T&=\frac{x}{v_1}+(2h-z)\left(\sqrt{\frac{1-sen^2(\theta )}{v_0^2}}\right) \\
+	\Aboxed{T&=\frac{x}{v_1}+(2h-z)\left(\sqrt{\frac{1}{v_0^2}-\frac{1}{v_1^2}}\right)}
+\end{align*}
+Obteniendo una relación del tiempo respecto a $x, v_0,v_1,h$ y $z$. PD: el paso de pasar a raiz es debido a que el valor dentro es positivo siempre).
+\end{document}
